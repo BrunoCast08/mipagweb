@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    /* background: url(/IMAGENES/POLICIACA.png); */
+    background-repeat: no-repeat;
+}
+
+/* CABEZA Y LOGO */
+header{
+    /* background-color: rgb(255, 50, 52, .5); */
+    position: relative;
+    height: 200px;
+    width: 1900px;
+    margin: auto;
+}
+
+.logo img{
+    background-color: rgb(55, 50, 52, .5);
+    position: absolute;
+    inset: 48px 230px;
+    height: 100px;
+    width: 436px;
+}
+/* FIN CABEZA Y LOGO */
+
+/* PANEL DE NAVEGACION */
+.navegacion{
+    position: relative;
+    inset: 48px 666px;
+    height: 100px;
+    width: 900px;
+}
+
+.navegacion ul{
+    /* background-color: rgb(5, 250, 250, .5); */
+    position: absolute;
+    inset: 0 0;
+    height: 100px;
+    width: 1020px;
+}
+
+.navegacion ul li{
+    float: left;
+    width: 255px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    /* background-color: rgb(50, 50, 250, .5); */
+    font-family: 'Libre Baskerville', serif;
+}
+/* FIN PANEL DE NAVEGACION */
+
+/* FONDO Y HEADER */
+.cabezal{
+    /* background-color: rgb(50, 50, 250, .5); */
+    position: relative;
+    height: 508px;
+    width: 1900px;
+    margin: auto;
+}
+
+.img-fondo img{
+    position: absolute;
+    height: 300px;
+    width: 1900px;
+}
+
+.titulop{
+    position: absolute;
+    inset: 90px 760px;
+    font-size: 70px;
+}
+
+.img-pequeña img{
+    /* background-color: rgb(150, 250, 250, .5); */
+    position: absolute;
+    inset: 200px 668px;
+    font-size: 70px;
+    width: 550px;
+    height: 310px;
+}
+/* FIN FONDO Y HEADER */
+
+/* ARTICULOS */
+article{
+    /* background-color: rgb(150, 50, 250, .5); */
+    position: relative;
+    inset: 100px 300px;
+    width: 1300px;
+    height: 900px;
+}
+
+.titulo1{
+    position: absolute;
+    inset: 10px 500px;
+    width: 700px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parrafo1{
+    position: absolute;
+    inset: 50px 500px;
+    width: 700px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.img1 img{
+    background-color: rgb(10, 50, 250, .5);
+    position: absolute;
+    inset: 440px 680px;
+    width: 350px;
+    height: 200px;
+}
+
+.titulo2{
+    position: absolute;
+    inset: 700px 500px;
+    width: 700px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parrafo2{
+    position: absolute;
+    inset: 740px 500px;
+    width: 700px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.img2 img{
+    background-color: rgb(10, 50, 250, .5);
+    position: absolute;
+    inset: 1190px 680px;
+    width: 390px;
+    height: 200px;
+}
+
+.titulo3{
+    position: absolute;
+    inset: 10px 50px;
+    width: 400px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parrafo3{
+    position: absolute;
+    inset: 80px 50px;
+    width: 400px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.img3 img{
+    background-color: rgb(10, 50, 250, .5);
+    position: absolute;
+    inset: 1010px 80px;
+    width: 350px;
+    height: 200px;
+}
+/* FIN ARTICULOS */
+
+aside{
+	position: relative;
+	/* background-color: rgb(255, 25, 255,.5); */
+	inset: 400px 0px 0px 350px;
+	height: 370px;
+	width: 369px;
+}
+
+aside h1{
+	position: absolute;
+	font-size: 35px;
+	inset: 60px 0px 0px 40px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+aside .redes-sociales{
+	position: absolute;
+	inset: 135px 0px 0px 90px;
+}
+aside .facebook{
+	position: absolute;
+	inset: 134px 0px 0px 50px;
+}
+
+aside .instagram{
+	position: absolute;
+	inset: 134px 0px 0px 145px;
+}
+
+aside .twitter{
+	position: absolute;
+	inset: 134px 0px 0px 242px;
+}
+
+aside .btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+    width: 80px;
+}
+
+aside .btn-social i
+{
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: all .25s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(1);
+    -webkit-transition: all .25s;
+}
+
+aside .btn-social:hover i
+{
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+
+aside .btn-facebook
+{
+    background-color: #95b7ff;
+}
+aside .btn-facebook:hover
+{
+    background-color: #0055ff;
+}
+
+aside .btn-instagram
+{
+    background-color: #ff7de7;
+}
+aside .btn-instagram:hover
+{
+    background-color: #a700fb;
+}
+
+aside .btn-twitter
+{
+    background-color: #6fc0ff;
+}
+aside .btn-twitter:hover
+{
+    background-color: #0091ff;
+}
